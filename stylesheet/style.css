@@ -310,7 +310,14 @@
     width: 245px;
     height: 245px;
     border: 1px solid #FF900E;
-    border-radius: 8px;
+    border-radius: 20px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.box:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
 }
 
 .box h2 {
@@ -367,6 +374,7 @@
     font-size: 16px;
     line-height: 26px;
     color: #727272;
+    filter: grayscale(100%);
 
 }
 
@@ -405,11 +413,7 @@
 
 
 @media only screen and (max-width: 688px) {
-    body {}
 
-    .khalid {
-        display: none;
-    }
 
     .header {
         height: 1100px;
