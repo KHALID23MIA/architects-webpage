@@ -273,7 +273,7 @@
 .some-facts {
     width: 550px;
     height: 130px;
-    margin-left: 300px;
+    margin-left: 90px;
 
 }
 
@@ -405,6 +405,10 @@
 
 
 @media only screen and (max-width: 688px) {
+    body {
+        
+    }
+
     .khalid {
         display: none;
     }
