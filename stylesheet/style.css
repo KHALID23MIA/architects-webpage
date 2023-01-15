@@ -404,4 +404,135 @@
 
 
 
-@media only screen and (max-width:) {}
+@media only screen and (max-width: 688px) {
+    .khalid {
+        display: none;
+    }
+
+    .header {
+        height: 1100px;
+    }
+
+    .navigation {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 0px;
+        height: 400px;
+    }
+
+    .navigation-title {
+        margin-bottom: 25px;
+    }
+
+    .link {
+        justify-content: center;
+    }
+
+    .link-list {
+        flex-direction: column;
+        text-align: center;
+        gap: 45px;
+
+    }
+
+    .link-list a {
+        color: rgb(246, 101, 4);
+    }
+
+
+
+    .header-info {
+        width: 100%;
+        justify-content: flex-start;
+        margin-bottom: 0px;
+    }
+
+    .header-paragraph {
+        margin: 0px;
+    }
+
+    .header-pic img {
+        width: 100%;
+    }
+
+    .our-features {
+        flex-direction: column;
+    }
+
+    .feature-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .love-enjoy {
+        flex-direction: column;
+    }
+
+    .love-enjoy-info {
+        width: 100%;
+    }
+
+    .love-enjoy-para {
+        width: 100%;
+    }
+
+    .blogs {
+        width: 100%;
+    }
+
+    .blogs div {
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .blogs p,
+    .love-enjoy-descrip {
+        width: 100%;
+        height: 100px;
+    }
+
+    .love-enjoy img {
+        width: 100%;
+    }
+
+    .button {
+        bottom: 56px;
+        left: -2px;
+    }
+
+    .some-facts {
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .activity-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .our-sponsors {
+        margin-top: 100px;
+    }
+
+    .sponsors-info {
+        width: 100%;
+        height: auto;
+    }
+
+    .sponsors-logo {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+}
